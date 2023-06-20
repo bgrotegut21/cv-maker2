@@ -1,0 +1,62 @@
+/* DELETE BUTTON STYLES */
+
+.deleteButton {
+  color: white;
+  background: none;
+  outline: none;
+  margin-bottom: 10px;
+  height: 2;
+  font-size: x-large;
+  font-weight: 700;
+  width: 20px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*  DELETE BUTTON LIGHT MODE */
+
+.deleteButton-light {
+  color: black;
+}
+
+/* ADD BUTTON STYLES */
+
+.addButton-container {
+  display: flex;
+  justify-content: center;
+}
+
+.addButton {
+  background: grey;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-size: normal;
+  height: 40px;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+
+  width: 100px;
+}
+
+/*  ADD BUTTON LIGHT MODE */
+
+.addButton-light {
+  background: white;
+  color: black;
+}
+
+/*  PRINT BUTTON */
+
+.printButton {
+  background: rgb(13, 112, 204);
+  color: white;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+
+  border-radius: 100px;
+}

@@ -1,0 +1,117 @@
+.switch {
+  border: 3px solid white;
+  width: 80px;
+  height: 30px;
+  position: relative;
+
+  border-radius: 30px;
+}
+
+.switchlarge {
+  width: 180px;
+  height: 60px;
+  position: relative;
+  border-radius: 60px;
+  border: 3px solid white;
+}
+
+.switchball {
+  position: absolute;
+
+  background: white;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.switchbutton {
+  z-index: 1;
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.switchbuttonlarge {
+  z-index: 1;
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.switchballlarge {
+  height: 60px;
+  background: white;
+
+  width: 60px;
+  border-radius: 60px;
+}
+
+.switch-light {
+  border: 3px solid black;
+}
+
+.switchball-light {
+  background: black;
+}
+/* ANIMATIONS */
+
+.switchball-enter {
+  transform: translateX(0);
+}
+
+.switchball-enter-active {
+  transform: translateX(50px);
+  transition: transform 1000ms;
+}
+
+.switchball-enter-done {
+  transform: translateX(50px);
+}
+
+.switchball-exit {
+  transform: translateX(50px);
+}
+
+.switchball-exit-active {
+  transform: translateX(0);
+  transition: transform 1000ms;
+}
+
+.switchball-exit-done {
+  transform: translateX(0);
+}
+
+.switchballlarge-enter {
+  transform: translateX(0);
+}
+
+.switchballlarge-enter-active {
+  transform: translateX(120px);
+  transition: transform 1000ms;
+}
+
+.switchballlarge-enter-done {
+  transform: translateX(120px);
+}
+
+.switchballlarge-exit {
+  transform: translateX(120px);
+}
+
+.switchballlarge-exit-active {
+  transform: translateX(0);
+  transition: transform 1000ms;
+}
+
+.switchballlarge-exit-done {
+  transform: translateX(0);
+}

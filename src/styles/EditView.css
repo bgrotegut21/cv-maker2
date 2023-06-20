@@ -1,0 +1,196 @@
+.editview {
+  background: rgb(48, 48, 48);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-input-large {
+  font-family: 'Roboto', sans-serif;
+
+  resize: none;
+}
+
+.text-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-input-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  border: 3px solid white;
+  height: 40px;
+  border-radius: 30px;
+  align-items: center;
+  width: 250px;
+  margin: 5px;
+}
+
+
+.text-input {
+  color: white;
+  background: rgb(60, 59, 59);
+
+  width: 200px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-input::placeholder {
+  color: white;
+}
+
+.text-input:focus {
+  outline: none;
+}
+
+.text-input-large:focus {
+  outline: none;
+}
+
+.text-input-container-large {
+  border-radius: 30px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.text-input-large::placeholder {
+  color: white;
+}
+
+.text-input-large {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background: rgb(60, 59, 59);
+  color: white;
+  margin: 10px;
+}
+.text-form {
+  display: flex;
+  flex-direction: column;
+  background: rgb(60, 59, 59);
+  border-radius: 30px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container-title {
+  font-family: 'Roboto', sans-serif;
+
+  color: white;
+  margin: 10px;
+}
+
+/* LIGHT MODE */
+
+.container-title-light {
+  color: black;
+}
+
+.editview-light {
+  background: rgb(219, 216, 216);
+}
+
+.text-input-container-large-light {
+  border: 3px solid black;
+}
+
+.text-form-light {
+  background: rgb(198, 196, 196);
+}
+
+.text-input-container-light {
+  border: 3px solid black;
+}
+
+.text-input-light {
+  background: rgb(198, 196, 196);
+  color: black;
+}
+
+.text-input-light::placeholder {
+  color: black;
+}
+
+.text-input-large-light {
+  background: rgb(198, 196, 196);
+  color: black;
+}
+
+.text-input-large-light::placeholder {
+  color: black;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 380px) {
+  .modeText {
+    font-size: medium;
+  }
+
+  .title-text {
+    font-size: large;
+  }
+  .container-title {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .modeText {
+    font-size: medium;
+  }
+
+  .title-text {
+    font-size: large;
+  }
+  .container-title {
+    font-size: medium;
+  }
+
+  .text-input-container {
+    width: 200px;
+  }
+
+  .text-input {
+    font-size: x-small;
+    width: 180px;
+  }
+
+  .text-input-container-large {
+    width: 200px;
+  }
+
+  .text-input-large {
+    width: 160px;
+    font-size: x-small;
+  }
+
+  .text-form {
+    width: 200px;
+    align-items: center;
+  }
+
+  .deleteButton {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .editview {
+    overflow-y: auto;
+    height: 800px;
+  }
+}

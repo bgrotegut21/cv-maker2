@@ -1,0 +1,15 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-view {
+  display: flex;
+  justify-content: center;
+  background: rgb(48, 48, 48);
+}
+
+/* THEMES */
+.desktop-view-light {
+  background: rgb(219, 216, 216);
+}

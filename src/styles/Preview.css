@@ -1,0 +1,156 @@
+.resume-holder {
+  background: rgb(60, 59, 59);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  border-radius: 30px;
+  min-height: 740px;
+  width: 572px;
+}
+
+.resume {
+  width: 572px;
+  min-height: 740px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.header {
+  margin: 30px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-line {
+  border-bottom: 3px solid rgb(13, 112, 204);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.experience {
+  margin: 30px;
+}
+
+.experience-title {
+  color: rgb(13, 112, 204);
+  margin-bottom: 20px;
+}
+
+.preview {
+  word-break: break-word;
+  display: flex;
+  justify-content: center;
+  background: rgb(48, 48, 48);
+}
+
+.personal-info-title {
+  color: rgb(13, 112, 204);
+  margin-bottom: 20px;
+}
+
+.preview-image {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+
+.preview-icon {
+  display: flex;
+  align-items: center;
+  margin: 1px;
+}
+.preview-icon-text {
+  font-size: x-small;
+}
+
+.personal-info-details {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.personal-info-words {
+  width: 310px;
+}
+
+.packet-holder {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+.packet-title {
+  font-size: small;
+  font-weight: 700;
+}
+
+.packet-info-text {
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: small;
+}
+
+.packet-info {
+  display: flex;
+}
+
+.packet-description {
+  font-size: small;
+}
+
+.personal-info-text {
+  font-size: small;
+}
+
+.print-button-holder {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.packet {
+  margin-bottom: 20px;
+}
+
+/* LIGHT MODE */
+
+.preview-light {
+  background: rgb(219, 216, 216);
+}
+
+.resume-holder-light {
+  background: rgb(198, 196, 196);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 650px) {
+  .resume {
+    width: 286px;
+  }
+
+  .resume-holder {
+    width: 286px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .resume {
+    width: 286px;
+  }
+
+  .resume-holder {
+    width: 286px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 30px;
+  }
+}
