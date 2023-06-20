@@ -17,8 +17,6 @@ const Switch = ({ large, onEntered, onExited }) => {
   let classText = '';
   if (large) classText = 'large';
 
-  // console.log(large, 'the large');
-
   useEffect(() => {
     setTrigger(false);
   }, [large]);

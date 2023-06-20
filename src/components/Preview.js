@@ -22,8 +22,6 @@ const Icon = ({ alt, src, children }) => {
 };
 
 const PersonalInformation = ({ personalInformationBox }) => {
-  // console.log(personalInformationBox, 'the personal information box');
-
   const name = personalInformationBox[0].value;
   const aboutinfo = personalInformationBox[4].value;
 
@@ -73,8 +71,6 @@ const PersonalInformation = ({ personalInformationBox }) => {
 //box[5] is about your subject
 
 const Info = ({ box, category }) => {
-  // console.log(box, 'the box');
-
   return (
     <div className="packet">
       <div className="packet-holder">
@@ -102,7 +98,6 @@ const Info = ({ box, category }) => {
 
 const Experience = ({ category, container }) => {
   const boxes = container.boxes;
-  // console.log(boxes, 'thee boxes');
 
   return (
     <div className="experience">
@@ -125,8 +120,6 @@ const Preview = ({ tasks }) => {
   const handlePrint = useReactToPrint({
     content: () => resumeRef.current,
   });
-
-  // console.log(tasks, 'the tasks');
 
   const personalInformationBoxes = tasks[0];
   const workExperience = tasks[1];
